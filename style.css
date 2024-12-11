@@ -1,0 +1,86 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.blocco{
+  width: 1200px;
+  height: 850px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  position: relative;
+  top: 20px;
+  font-family: sans-serif;
+  border-radius: 15px;
+
+}
+
+img{
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+}
+
+header > span{
+  color: lime;
+  font-size: 30px;
+  position: relative;
+  top:100px;
+}
+header, nav{
+  text-align: center;
+}
+div.green{
+  width: 80%;
+  height:40px;
+  background-color: lime;
+  margin: auto;
+  position: relative;
+  top:103px;
+}
+
+button.button{
+  position: relative;
+  top: 10px;
+}
+
+div.monopattini{
+  position: absolute;
+  left: 120px;
+  top:320px;
+  color: white;
+}
+
+div.bar{
+  background: orange;
+  height: 25px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+div.bar2{
+  background: green;
+  height: 25px;
+  width: 450px;
+  border-radius: 5px;
+}
+
+div.bar3{
+  background: red;
+  height: 25px;
+  width: 130px;
+  border-radius: 5px;
+}
+div > section{
+  padding: 10px
+}
+span.M{
+  font-size: 25px
+}
+span.L{
+  color: lightgrey;
+}
